@@ -34,7 +34,7 @@ body{
   text-decoration: none;
   
   /* check */
-  top: 10vw;
+  top: 2vw;
   left: 10vw;
   
 }
@@ -56,18 +56,18 @@ body{
 
 
 .box-right{
-  flex-grow: 1;
+  
   position: absolute;
-  top: 10vw;
-  right: 10vw;
+  top: 2vw;
+  right: 8em;
 }
 
 .box-right a{
   color: #EFEEEB;
   font-size: 4vw;
   font-family: "Libre Baskerville", serif;
-  line-height: 45px; 
-  text-align: center; 
+   
+  text-align: right; 
   padding-top: 20px;
   text-decoration: none;
   transition: all .2s ease-in-out; 
