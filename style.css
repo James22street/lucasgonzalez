@@ -386,10 +386,7 @@ hr{
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 760px) {
     .box-left a{
-      background: rgba(0, 0, 0, 0.7);
-      padding: 8px; 
-      font-size: 1em;
-      font-weight: bold;
+     
     }
     .box-left{
       left: 4vw;
@@ -400,8 +397,7 @@ hr{
       font-size: 1em;
       font-weight: bold;
       
-      background: rgba(0, 0, 0, 0.7);
-      padding: 8px; 
+     
     }
     .box-right{
       
@@ -423,7 +419,7 @@ hr{
     .square{
       width: 90%;
       height: 50vw;
-      margin-left: 5%;
+      margin-left: 2.5%;
       
     }
     .square h2{
@@ -479,10 +475,23 @@ hr{
       
     }
     .icon-bar a{
-      font-size: 3vw;
-
-    }
       
+      font-size: 2.8vw;
+      padding-left: 1.5vw;
+      padding-right: 1.5vw;
+      padding-bottom: 1.5vw;
+      padding-top: 1vw;
+    }
+    .icon-bar{
+      top:97%;
+      
+    }  
+    .square-breceta{
+      
+    }
+    .box-breceta{
+      margin-left: 2vw;
+    }
   }
   
   @media screen and (max-width: 500px) {
