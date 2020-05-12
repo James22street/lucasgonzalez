@@ -178,7 +178,7 @@ html{
   padding-right: 5%;
 }
 .square{
-  transform: rotate(1deg);
+  margin-top: 2.5%;
   border: 1vw solid #111;
   width: 45vw;
   height: 35vw;
